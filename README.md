@@ -12,6 +12,7 @@ NLTK library was used and tokens are created in the form of alphabets, words and
 
 The below image shows the correlation between different sets of token
 ![image](https://github.com/AdityaDighe/Spam_Message_Classifier/assets/98305705/a8446199-f8f3-4932-a0d0-9ef10c8e8330)
+
 It can be observed that the num_word shows most correlation between all, and hence we choose to go ahead with it.
 
 This is the heat map between them
@@ -21,3 +22,13 @@ In the below images we can see the WordClould for both spam and ham messages
 
 Word Cloud for spam messages is as follows:
 ![image](https://github.com/AdityaDighe/Spam_Message_Classifier/assets/98305705/58372825-0b5f-4126-9a2c-ddbea59ffdf7)
+
+Word Cloud for ham messages is as follows:
+![image](https://github.com/AdityaDighe/Spam_Message_Classifier/assets/98305705/ff92a8b7-b08e-49f2-a49e-efa19ee7bcb5)
+
+The bigger the representaion over wordcloud the more its occurance shall affect the classification.
+This distribution shows the words that if included into a sentence based on the dataset which are ml model will be trained will show bias by flaging it as spam or ham messages.
+
+Now to show that the training and testing accuracy of the conventional machine learning algorithms, it is represented in the table below
+![image](https://github.com/AdityaDighe/Spam_Message_Classifier/assets/98305705/8d58f330-4c16-4808-8aee-42edef51ffd4)
+
